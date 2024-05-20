@@ -66,3 +66,16 @@ body {
 }
 
 /* About Element End */
+
+/* Footer Element Start */
+footer {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  border-top: solid lightgray 1px;
+}
+
+.footer-text {
+  padding-left: 2rem;
+}
+/* Footer Element End */
