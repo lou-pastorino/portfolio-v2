@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.hero-text {
+  padding: 1rem;
+  border: lightgray solid 1px;
+  border-radius: 1rem;
+}
