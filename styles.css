@@ -30,13 +30,12 @@ body {
   justify-content: left;
   align-items: center;
   min-height: 100vh;
-  min-width: 100vw;
   background-color: black;
 }
 
 .hero-text {
   color: white;
-  padding-left: 4rem;
+  padding: 0 2rem;
 }
 
 .hero-title {
@@ -59,10 +58,11 @@ body {
   justify-content: left;
   align-items: center;
   text-align: left;
+  height: 100vh;
 }
 
 .about-text {
-  padding: 0 4rem;
+  padding: 0 2rem;
 }
 
 /* About Element End */
