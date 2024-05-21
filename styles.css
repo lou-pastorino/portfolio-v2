@@ -153,16 +153,15 @@ body {
 .back-to-top-btn {
   display: flex;
   text-decoration: none;
+  border-radius: 6px;
+  padding: 6px 14px;
   color: black;
-  transition: border-bottom 1s ease;
-}
-
-.back-to-top-btn:hover {
+  border: 1px solid #d5d9d9;
+  border-radius: 6px;
 }
 
 .back-to-top-btn span {
   padding-left: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 /* Contact Me Section End */
@@ -209,6 +208,9 @@ footer {
   }
   .btn-white:hover {
     transition: none;
+  }
+  .back-to-top {
+    justify-content: end;
   }
 }
 /* Buttons End*/
