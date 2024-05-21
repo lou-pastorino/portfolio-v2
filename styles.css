@@ -182,6 +182,9 @@ footer {
 @media (max-width: 769px) {
   .btn-white {
     width: 100%;
+    padding: 1rem 0;
+    font-size: 1em;
+    font-weight: 500;
   }
 }
 /* Buttons End*/
