@@ -161,6 +161,10 @@ body {
   padding-bottom: 1rem;
 }
 
+/* Contact Me Section End */
+
+/* Back to Top start */
+
 .back-to-top {
   display: flex;
   padding: 2rem 2rem;
@@ -182,7 +186,7 @@ body {
   padding-left: 0.5rem;
 }
 
-/* Contact Me Section End */
+/* Back to top end */
 
 /* Footer Element Start */
 footer {
@@ -202,9 +206,6 @@ footer {
 .btn-white {
   background: none;
   border: 1px solid #d5d9d9;
-  outline: 1px solid #d5d9d9;
-  /* outline-offset: -2px; */
-  /* transition: outline-offset 200ms ease; */
   transition: all 0.5s ease;
   border-radius: 6px;
   padding: 6px 14px;
@@ -212,10 +213,11 @@ footer {
   box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
   cursor: pointer;
   margin: 0.25rem 0;
+  font-size: medium;
+  font-weight: 100;
 }
 
 .btn-white:hover {
-  /* outline-offset: 2px; */
   transform: scale(1.05);
 }
 
