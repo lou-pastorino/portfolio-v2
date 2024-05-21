@@ -158,12 +158,19 @@ footer {
 .btn-white {
   background: none;
   border: 1px solid #d5d9d9;
+  outline: 1px solid #d5d9d9;
+  outline-offset: -2px;
+  transition: outline-offset 200ms ease;
   border-radius: 6px;
   padding: 6px 14px;
   width: 200px;
   box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
   cursor: pointer;
   margin: 0.25rem 0;
+}
+
+.btn-white:hover {
+  outline-offset: 2px;
 }
 
 @media (max-width: 769px) {
