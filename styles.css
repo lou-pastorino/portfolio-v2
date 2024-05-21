@@ -186,13 +186,24 @@ footer {
 }
 /* Buttons End*/
 
-/* Observers */
+/* Animations */
+
+.project-card:nth-child(2) {
+  transition-delay: 200ms;
+}
+.project-card:nth-child(3) {
+  transition-delay: 400ms;
+}
 
 .hidden {
   opacity: 0;
-  transition: all 2s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
 }
 
 .show {
   opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
