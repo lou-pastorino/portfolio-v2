@@ -186,6 +186,9 @@ footer {
     font-size: 1em;
     font-weight: 500;
   }
+  .btn-white:hover {
+    transition: none;
+  }
 }
 /* Buttons End*/
 
