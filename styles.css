@@ -144,6 +144,27 @@ body {
   padding-bottom: 1rem;
 }
 
+.back-to-top {
+  display: flex;
+  padding: 2rem 2rem;
+  align-items: end;
+}
+
+.back-to-top-btn {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  transition: border-bottom 1s ease;
+}
+
+.back-to-top-btn:hover {
+}
+
+.back-to-top-btn span {
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 /* Contact Me Section End */
 
 /* Footer Element Start */
