@@ -103,7 +103,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 1rem 0;
 }
 
@@ -113,32 +113,54 @@ body {
   background-color: white;
 }
 
-.card-title,
+/* .card-title,
 .card-subtitle {
   text-align: center;
   padding: 1rem 0;
-  background-color: white;
   color: black;
-}
+} */
 
 .card-title {
   font-size: 1.2rem;
   font-weight: 400;
   background-color: #f5f5f5;
   color: #454545;
-  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem 0;
 }
-
 .card-subtitle {
+  display: flex;
+  justify-content: center;
   font-size: 0.8rem;
   font-weight: 300;
   padding-top: 0.75rem;
-  border-radius: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 
 .project-card img {
   max-width: 100%;
   height: auto;
+}
+
+.project-btn {
+  min-width: 120px;
+  margin-top: 0.5rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #d5d9d9;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.project-btn a {
+  text-decoration: none;
+  color: black;
+  background-color: none;
 }
 
 /* Projects Element End */
@@ -174,7 +196,6 @@ body {
 .back-to-top-btn {
   display: flex;
   text-decoration: none;
-  border-radius: 6px;
   padding: 6px 14px;
   color: black;
   border: 1px solid #d5d9d9;
@@ -239,6 +260,10 @@ footer {
   }
   .back-to-top {
     justify-content: end;
+  }
+
+  .project-btn {
+    min-width: 75%;
   }
 }
 /* Buttons End*/
